@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
 body {
     background-color: #f3f3f3;
     color: #262626;
@@ -8,13 +7,30 @@ body {
     padding: 0;
     user-select: none;
 }
-
-
-
-.rgb {
-    width: 500px;
-    height: 500px;
-    background-image: linear-gradient(45deg, red, orange, yellow, green, blue, purple);
-    position: absolute;
-    bottom: 0;
+.y874g{text-align:center;}
+.gj430{font-weight:bold;font-size:24px;}
+.g30hg
+.gn438d{width:64px;height:64px;float:left;}
+.j9h5sf{width:48px;height:48px;float:right;}
+.active{font-weight:bold;border-bottom:5px solid #dd0404;}
+.a549hg{font-size:20px;}
+.nav {
+    background-color:#464646;
+    color:#f3f3f3;
+    width:100%;
+    padding:4px;
+    text-align:center;
+    height: 72px;
 }
+.nav a{color:#f3f3f3;text-decoration:none;font-size:20px;}
+* {box-sizing: border-box;}
+.content{width:100%;height:auto;background-color:#f3f3f3;color:#262626;}
+.content a{color:#262626;text-decoration:none;}
+.current-slideshow {
+    position: relative;
+    margin: auto;
+    background-color: #d1d1d1;
+    padding: 8px;
+    border-radius: 25%;
+}
+.current-slide {display:none;}/* HIDE-CONTENT-BY-DEFAULT */
