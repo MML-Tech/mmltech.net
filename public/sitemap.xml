@@ -37,18 +37,6 @@
       <priority>1.0</priority>
 </url>
 <url>
-      <loc>https://mmltech.net/directory</loc>
-      <lastmod>2005-01-01</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-</url>
-<url>
-      <loc>https://mmltech.net/mmlapi.js</loc>
-      <lastmod>2005-01-01</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-</url>
-<url>
       <loc>https://mmltech.net/main.js</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>weekly</changefreq>

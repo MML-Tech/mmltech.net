@@ -11,6 +11,12 @@
       "**/mmlplus/**"
     ],
     "cleanUrls": true,
-    "trailingSlashes": false
+    "trailingSlashes": false,
+    "rewrites": [
+      {
+        "source": "**/mmlplus-embed/**",
+        "destination": "?embed"
+      }
+    ]
   }
 }
