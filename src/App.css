@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.App {
+  color: #FDFDFD;
+  background: #0F0F0F;
+  width: 100%;
+  height: auto;  
+}
+* {
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background: #00000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 75px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+::selection {
+  background: #aa04dd;
+  color: #fdfdfd;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}

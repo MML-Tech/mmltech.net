@@ -1,31 +1,3 @@
-#        /\    /\               /\    /\        |
-#       /  \  /  \             /  \  /  \       |
-#      /    \/    \           /    \/    \      |
-#     /            \         /            \     |
-#    /              \       /              \    |
-#   /                \     /                \   |
-#  /                  \   /                  \  |
-# /                    \ /                    \ |___________
-
-User-agent: MMLTECH_MEDIA
-Disallow: 
-
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /docs
-Disallow: /info
-Disallow: /embedjs
-Disallow: /cpos
-Disallow: /games-w3spaces
-Disallow: /login
-Disallow: /results
-Disallow: /signup
-Disallow: /docs/legal/tos
-Disallow: /docs/legal/privacy-policy
-Disallow: /verify_age
-Disallow: /ajax
-Disallow: /plus-plans
-Disallow: /reldata.js
-Disallow: /mml.js
-
-Sitemap: https://mmltech.net/sitemap.xml
-Sitemap: https://plus.mmltech.net/sitedata/sitemap.xml
+Disallow:

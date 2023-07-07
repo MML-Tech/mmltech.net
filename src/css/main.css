@@ -1,0 +1,341 @@
+.content {
+    padding: 8px;
+    width: 100%;
+    z-index: 333;
+    position: absolute;
+    top: -8px;
+}
+
+.hero video {
+    width: 80%;
+    margin: 0;
+    border-radius: 30px;
+    border: none;
+    aspect-ratio: 16/9;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 30px;
+    opacity: 0.8;
+    -webkit-user-drag: none;
+}
+
+.hero {
+    background: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.hero span {
+    display: flex;
+    position: absolute;
+    justify-self: center;
+    font-weight: bold;
+    color: #151515;
+    backdrop-filter: blur(8px);
+    padding: 8px;
+    box-sizing: content-box;
+    transition: 5s;
+    background: #5555555F;
+    border-radius: 16px;
+    font-size: 64px;
+    top: 5%;
+}
+
+.hero a {
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    font-weight: normal;
+    color: #151515;
+    backdrop-filter: blur(8px);
+    padding: 8px;
+    background: #0000000F;
+    border-radius: 16px;
+}
+
+@keyframes animated-bg {
+    from {
+        background: #5555551F;
+        backdrop-filter: blur(4px);
+    }
+    50% {
+        background: #7777775F;
+        backdrop-filter: blur(16px);
+    }
+    to {
+        background: #5555551F;
+        backdrop-filter: blur(4px);
+    }
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background: #151515BC;
+    backdrop-filter: blur(64px);
+    display: none;
+    z-index: 1099;
+}
+
+.contentSep {
+    border: 4px solid #555;
+    border-radius: 8px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.socialMedia {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 12px;
+    background: #262626;
+    border-radius: 12px;
+}
+
+.brandIcon, .brandLink {
+    width: 64px;
+    font-size: 32px;
+    aspect-ratio: 1/1;
+    color: #fdfdfd;
+    transition: 0.25s;
+}
+
+.facebook:hover {
+    color: #1877f2;
+    font-size: 36px;
+    transition: 0.25s;
+    animation: iconBounce 0.5s;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+    font-size: 36px;
+    transition: 0.25s;
+    animation: iconBounce 0.5s;
+}
+
+.reddit:hover {
+    color: #ff4500;
+    font-size: 36px;
+    transition: 0.25s;
+    animation: iconBounce 0.5s;
+}
+
+.mastodon:hover {
+    color: #6364ff;
+    font-size: 36px;
+    transition: 0.25s;
+    animation: iconBounce 0.5s;
+}
+
+.asteriskText {
+    font-size: 12px;
+}
+
+.newSite {
+    background: linear-gradient(to right, #a41e3dbc, #5e3b82bc);
+    width: 100%;
+    height: 100vh;
+    padding: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.squiggle {
+    width: 100%;
+    margin-bottom: 10%;
+    display: none;
+}
+
+.squiggle-flip {
+    width: 100%;
+    rotate: 180deg;
+    display: none;
+    margin-top: 10%;
+}
+
+.newSite h1 {
+    background: linear-gradient(to right, #dd0404, #0264dd);
+    padding: 16px;
+    border-radius: 16px;
+    width: 100%;
+    font-size: 64px;
+}
+
+.banner {
+    background: #0a0a0a99;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 8px;
+    width: 50%;
+}
+
+.bigDownArrow {
+    font-size: 164px;
+    line-height: 164px;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 25% 25fr 25fr 25fr;
+}
+
+.mml-brands, .mml-links, .mml-legal, .mml-social {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLink {
+    color: #fdfdfd;
+    font-size: 18px;
+    margin: 4px;
+}
+
+.socials-head {
+    background: #0000006f;
+    border-radius: 16px;
+    text-align: center;
+    padding: 16px;
+    width: 45%;
+    margin-left: 27.5%;
+}
+
+.notfound {
+    padding: 16px;
+    background: #262626;
+    border-radius: 16px;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-top: 15vh;
+    margin-bottom: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+    .socials-head {
+        width: 100%;
+        margin: 0;
+    }
+    .newSite h1 {
+        font-size: 36px;
+    }
+    .hero video {
+        width: 100%;
+        margin: none;
+        border-radius: 0;
+    }
+    .hero span {
+        display: flex;
+        position: absolute;
+        background: #0000000f;
+        justify-self: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #151515;
+        padding: 4px;
+        box-sizing: content-box;
+        backdrop-filter: blur(0);
+        animation: none;
+    }
+    .hero a {
+        display: flex;
+        position: absolute;
+        background: #0000000f;
+        font-weight: normal;
+        color: #151515;
+        padding: 4px;
+        border-radius: 8px;
+        font-size: 10px;
+    }
+    .notfound {
+        width: 100%;
+        margin-left: none;
+    }
+    .bigDownArrow {
+        font-size: 56px;
+    }
+}
+
+@keyframes iconBounce {
+    from {
+        transform: translateY(0);
+    }
+    5% {
+        transform: translateY(-5px);
+    }
+    10% {
+        transform: translateY(-5px);
+    }
+    15% {
+        transform: translateY(-5px);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
+    25% {
+        transform: translateY(-5px);
+    }
+    30% {
+        transform: translateY(-5px);
+    }
+    35% {
+        transform: translateY(-5px);
+    }
+    40% {
+        transform: translateY(-5px);
+    }
+    45% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    55% {
+        transform: translateY(5px);
+    }
+    60% {
+        transform: translateY(5px);
+    }
+    65% {
+        transform: translateY(5px);
+    }
+    70% {
+        transform: translateY(5px);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+    80% {
+        transform: translateY(5px);
+    }
+    85% {
+        transform: translateY(5px);
+    }
+    90% {
+        transform: translateY(5px);
+    }
+    95% {
+        transform: translateY(5px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
